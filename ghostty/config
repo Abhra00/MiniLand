@@ -1,0 +1,51 @@
+#  ┏┓┓┏┏┓┏┓┏┳┓┏┳┓┓┏
+#  ┃┓┣┫┃┃┗┓ ┃  ┃ ┗┫
+#  ┗┛┛┗┗┛┗┛ ┻  ┻ ┗┛
+#                  
+
+
+
+#--------Appearance----------#
+#----------------------------#
+background-opacity = 1.0
+window-padding-x = 14
+window-padding-y = 14
+window-padding-balance = 1
+
+
+#---------Theme-----------#
+#-------------------------#
+theme = tokyonight
+
+#---------Fonts----------#
+#------------------------#
+font-family = "Iosevka Nerd Font"
+font-style = "Regular"
+font-size = 14
+
+#---Shell Integration---#
+#-----------------------#
+shell-integration-features = no-cursor
+
+#--------Cursor----------#
+#------------------------#
+adjust-cursor-thickness = 1
+cursor-style-blink = true
+
+#--------Keybinds----------#
+#--------------------------#
+keybind = alt+shift+page_up=increase_font_size:1
+keybind = alt+shift+page_down=decrease_font_size:1
+keybind = alt+z=jump_to_prompt:-1
+keybind = alt+x=jump_to_prompt:1
+
+
+#----------Misc--------#
+#----------------------#
+gtk-single-instance = true
+confirm-close-surface = false
+copy-on-select = true
+app-notifications = no-clipboard-copy
+clipboard-trim-trailing-spaces = true
+
+
