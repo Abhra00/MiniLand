@@ -1,0 +1,1 @@
+Minimal hyprland rice
